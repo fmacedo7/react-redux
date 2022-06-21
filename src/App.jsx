@@ -12,7 +12,7 @@ export default () => (
     <userCard></userCard>
     <h1>Fundamentos React</h1>
     <div className="Cards">
-      <Card title="#4 Exemplo de card">
+      <Card title="#4 Exemplo de card" color="#FA6900">
         <Aleatorio min={1} max={9}></Aleatorio>
       </Card>
       <Card title="#3 Fragmento">
