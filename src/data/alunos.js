@@ -8,4 +8,4 @@ export default [
     { id: 7, nome: 'Giliard', nota: 4.0, },
     { id: 8, nome: 'Hilario', nota: 5.2, },
     { id: 9, nome: 'Indra', nota: 2.5, }
-]
+]   

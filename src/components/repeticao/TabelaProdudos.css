@@ -1,0 +1,7 @@
+.tabela_produtos table{
+    width: 100%;
+}
+
+.tabela_produtos th{
+    background-color: darkcyan;
+}

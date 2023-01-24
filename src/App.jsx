@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import First from "./components/basics/First"; //o nome "First" n precisa ser exatamente o mesmo nome da funcao de origem
 import ComParametro from "./components/basics/ComParemetro";
@@ -13,6 +14,9 @@ export default (_) => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card id="test" titulo="#07 - Desafio Repeticao" color="#3A9AD9">
+        <TabelaProdutos />
+      </Card>
       <Card titulo="#06 - Lista de Repeticao" color="#FF4C65">
         <ListaAlunos />
       </Card>
