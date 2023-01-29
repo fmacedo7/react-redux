@@ -5,3 +5,11 @@
 .tabela_produtos th{
     background-color: darkcyan;
 }
+
+.tabela_produtos .Par{
+    background-color: #ddd;
+}
+
+.tabela_produtos .Impar{
+    background-color: #ccc;
+}

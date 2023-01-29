@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import Usuario from "./components/condicional/Usuario";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import First from "./components/basics/First"; //o nome "First" n precisa ser exatamente o mesmo nome da funcao de origem
@@ -14,6 +16,10 @@ export default (_) => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="#08 - Renderizacao condicional" color="#982395">
+        <ParOuImpar numero={21} />
+        <Usuario usuario={{ nome: 'Jesus' }} />
+      </Card>
       <Card id="test" titulo="#07 - Desafio Repeticao" color="#3A9AD9">
         <TabelaProdutos />
       </Card>
